@@ -12,8 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     color: #E1E1E6;
-    background: url("../img/home-bg.png") no-repeat;
-    background-size: cover;
+    background: url("../img/home-bg.png") no-repeat center/cover;
     min-height: 100vh;
 }
 
