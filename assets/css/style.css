@@ -65,6 +65,7 @@ nav ul li a:hover {
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 6rem;
+    animation: top-bottom .2s .1s backwards;
 }
 
 .home a {
@@ -74,6 +75,7 @@ nav ul li a:hover {
     border: 2px solid #FFF;
     border-radius: 0.6rem;
     transition: all .1s ease-in;
+    animation: top-bottom .2s .2s backwards;
 }
 
 .home a:hover {
@@ -86,7 +88,7 @@ nav ul li a:hover {
 }
 
 .inner-content h2 {
-    animation: top-bottom .2s backwards;
+    animation: top-bottom .2s .1s backwards;
 }
 
 @keyframes top-bottom {
@@ -101,7 +103,7 @@ nav ul li a:hover {
     margin-top: 1.6rem;
     font-size: 1.8rem;
     line-height: 2.8rem;
-    animation: left-right .2s backwards;
+    animation: left-right .2s .2s backwards;
 }
 
 @keyframes left-right {
