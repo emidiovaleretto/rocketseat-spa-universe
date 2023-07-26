@@ -34,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 3.2rem;
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 nav ul {
@@ -42,10 +42,15 @@ nav ul {
     gap: 4rem;
 }
 
-#app {
-    display: grid;
-    place-content: center;
+nav ul li a {
+    color: #8D8D99;
+    transition: all .2s ease-in;
 }
+
+nav ul li a:hover {
+    color: #FFF;
+}
+
 
 .home {
     display: flex;
@@ -53,7 +58,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 2.4rem;
-    min-height: calc(100vh - 10rem);
+    min-height: 80vh;
 }
 
 .hero-text {
@@ -74,4 +79,15 @@ nav ul {
 .home a:hover {
     color: #02799D;
     background-color: #FFF;
+}
+
+.inner-content {
+    margin: 6rem 0 0 8rem;
+}
+
+.inner-content p {
+    max-width: 65ch;
+    margin-top: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
 }
